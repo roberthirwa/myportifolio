@@ -1,0 +1,547 @@
+/* Reset some default browser styling */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu list styling */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Logo styling */
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.menu li a:hover {
+    color: #ff6600;
+}
+
+
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Home section styling */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #333;
+}
+/* Reset some default browser styling */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu list styling */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Logo styling */
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.menu li a:hover {
+    color: #ff6600;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.image-content img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Button styling */
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from the link */
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #90EE90; /* Soft green background on hover */
+}
+
+/* General body styling */
+body {
+    font-family: 'Lora', serif;
+    background-color: #F0F0F0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section styling */
+.about {
+    padding: 40px;
+}
+
+/* Headings styling */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Biography and Accomplishments sections */
+.bio-content, .accomplishment-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bio-image-left {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.bio-image-right {
+    max-width: 200px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+/* Hobbies and Services styling */
+.hobbies, .services {
+    margin-bottom: 40px;
+}
+
+/* Text styling */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* General body styling */
+/* General body styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Blog section styling */
+.blog {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the sidebar and posts stay side by side */
+    padding: 40px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #6A5ACD;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #6A5ACD;
+}
+
+/* Post list styling */
+.post-list {
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.featured-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #6A5ACD;
+    margin-bottom: 10px;
+}
+
+.contact-us p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8A2BE2;
+}
+
+.contact-info {
+    margin-top: 40px;
+}
+
+.icon-text {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-text i {
+    margin-right: 10px;
+    color: #6A5ACD;
+}
+
+.social-media a {
+    color: #6A5ACD;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .blog {
+        flex-direction: column; /* Stack sidebar and posts vertically on small screens */
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .post-list {
+        width: 100%;
+    }
+
+    .post {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post h2 {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+
+    .post p {
+        font-size: 14px; /* Reduce font size for better readability on small screens */
+    }
+}
+
+
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-item i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #90EE90;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-center i {
+    font-size: 30px;
+    color: #F9F9F9;
+}
+
+.footer-center a:hover i {
+    color: #90EE90;
+}
+/* General body styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Blog section styling */
+.blog {
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+    padding: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.sidebar h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #6A5ACD;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #6A5ACD;
+}
+
+/* Post list styling */
+.post-list {
+    width: 75%;
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.featured-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .blog {
+        flex-direction: column; /* Stack the sidebar and posts vertically */
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px; /* Add spacing between sidebar and posts */
+    }
+
+    .post-list {
+        width: 100%;
+    }
+
+    .post {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post h2 {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+
+    .post p {
+        font-size: 14px; /* Reduce font size for better readability on small screens */
+    }
+}
