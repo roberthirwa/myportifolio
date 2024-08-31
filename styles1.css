@@ -1,0 +1,213 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none; /* Removes the dots */
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Menu list styling */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Logo styling */
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.menu li a:hover {
+    color: #ff6600;
+}
+
+nav.categories {
+    background-color: #444;
+}
+
+nav.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav.categories li {
+    margin: 0;
+}
+
+nav.categories a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+}
+
+nav.categories a:hover {
+    background-color: #555;
+}
+
+/* Category section styling */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.categories a {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.categories a:hover {
+    background-color: #6A5ACD;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+.bio-image-left {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.bio-image-right {
+    max-width: 200px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+ol li {
+    margin-bottom: 0.5rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-item i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #90EE90;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-center i {
+    font-size: 30px;
+    color: #F9F9F9;
+}
+.footer-center a i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #90EE90; 
+}
+.footer-center a:hover i {
+    color: #90EE90;
+}
