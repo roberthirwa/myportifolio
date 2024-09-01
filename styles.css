@@ -493,3 +493,110 @@ body {
         font-size: 14px;
     }
 }
+/* For tablets and below */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text-content, .image-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bio-content, .accomplishment-content {
+        flex-direction: column;
+    }
+
+    .bio-image-left, .bio-image-right {
+        margin: 0 auto 20px auto;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .bio-image-left, .bio-image-right {
+        max-width: 150px;
+    }
+
+    .text-content {
+        font-size: 14px;
+    }
+
+    .contact-us h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .post-list, .post {
+        width: 100%;
+    }
+
+    .post h2 {
+        font-size: 16px;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Example for text and containers */
+h1, h2 {
+    font-size: 2.5vw;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* Example for grid-based layout */
+@media (max-width: 768px) {
+    .grid-container {
+        display: block;
+    }
+}
+/* Example of hiding elements on small screens */
+@media (max-width: 480px) {
+    .desktop-only {
+        display: none;
+    }
+}
