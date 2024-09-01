@@ -15,7 +15,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 nav ul {
     list-style-type: none; /* Removes the dots */
     padding: 0;
@@ -33,11 +35,11 @@ nav ul li a {
     font-weight: bold;
 }
 
-
 /* Menu list styling */
 .menu {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .menu li a {
@@ -69,6 +71,7 @@ nav.categories ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav.categories li {
@@ -97,6 +100,7 @@ nav.categories a:hover {
     position: sticky;
     top: 0;
     z-index: 1000;
+    flex-wrap: wrap;
 }
 
 .categories a {
@@ -113,7 +117,6 @@ nav.categories a:hover {
     border-radius: 20px;
 }
 
-
 main {
     padding: 2rem;
 }
@@ -121,16 +124,13 @@ main {
 section {
     margin-bottom: 2rem;
 }
-.bio-image-left {
-    max-width: 200px;
-    margin-right: 20px;
+
+.bio-image-left, .bio-image-right {
+    max-width: 100%;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
-.bio-image-right {
-    max-width: 200px;
-    margin-left: 20px;
-    border-radius: 8px;
-}
+
 h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
@@ -166,6 +166,7 @@ ol {
 ol li {
     margin-bottom: 0.5rem;
 }
+
 footer {
     background-color: #333;
     color: #fff;
@@ -173,6 +174,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-left {
@@ -203,11 +205,77 @@ footer {
     font-size: 30px;
     color: #F9F9F9;
 }
-.footer-center a i{
+
+.footer-center a i {
     font-size: 20px;
     margin-right: 10px;
     color: #90EE90; 
 }
+
 .footer-center a:hover i {
     color: #90EE90;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    nav ul {
+        padding-left: 0;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    .categories a {
+        padding: 10px 15px;
+    }
+    main {
+        padding: 1rem;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-left {
+        align-items: center;
+    }
+    .footer-center {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    .menu {
+        gap: 10px;
+    }
+    .categories {
+        padding: 5px 0;
+    }
+    .categories a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    article {
+        padding: 0.5rem;
+    }
+    footer {
+        padding: 10px;
+    }
 }
