@@ -1,0 +1,259 @@
+/* Base styles for mobile-first design */
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Navbar custom styles */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+/* Navbar link hover */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Main content container */
+.container {
+    padding: 15px;
+}
+
+/* Carousel Styles */
+#carouselExample {
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Blog post styling */
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.blog-post-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog-post-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card .stretched-link {
+    position: relative;
+    z-index: 2;
+}
+
+/* Sidebar */
+.font-italic {
+    font-style: italic;
+}
+
+/* Pagination buttons */
+.blog-pagination .btn {
+    font-size: 1rem;
+}
+
+/* Footer styling */
+.blog-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    margin-top: 40px;
+}
+
+.blog-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (min-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .blog-post-title {
+        font-size: 2.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .blog-post-title {
+        font-size: 2.5rem;
+    }
+
+    .carousel-item img {
+        height: 550px;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .font-italic {
+        font-size: 1.1rem;
+    }
+
+    .blog-footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .carousel-item img {
+        height: 600px;
+    }
+
+    .blog-post-title {
+        font-size: 2.8rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    .blog-footer {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    /* On very small devices like phones, adjust layout */
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .blog-post-title {
+        font-size: 1.8rem;
+    }
+
+    .blog-post-meta {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* For very small screens like some older phones */
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .blog-post-title {
+        font-size: 1.6rem;
+    }
+
+    .blog-footer {
+        font-size: 1rem;
+    }
+}
